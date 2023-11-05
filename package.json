@@ -1,19 +1,19 @@
 {
-  "name": "n8n-nodes-<...>",
-  "version": "0.1.0",
-  "description": "",
+  "name": "n8n-nodes-gravitrax",
+  "version": "0.1.1",
+  "description": "Gravitrax nodes",
   "keywords": [
     "n8n-community-node-package"
   ],
   "license": "MIT",
   "homepage": "",
   "author": {
-    "name": "",
-    "email": ""
+    "name": "kangapi",
+    "email": "mail@kangapi.fr"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/<...>/n8n-nodes-<...>.git"
+    "url": "https://github.com/kangapi/n8n-nodes-gravitrax.git"
   },
   "main": "index.js",
   "scripts": {
