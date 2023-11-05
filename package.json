@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-gravitrax",
-  "version": "0.1.3",
+  "version": "0.1.8",
   "description": "Gravitrax nodes",
   "keywords": [
     "n8n-community-node-package"
@@ -31,11 +31,15 @@
     "n8nNodesApiVersion": 1,
     "credentials": [
       "dist/credentials/ExampleCredentialsApi.credentials.js",
-      "dist/credentials/HttpBinApi.credentials.js"
+      "dist/credentials/HttpBinApi.credentials.js",
+      "dist/credentials/NasaPicsApi.credentials.js",
+      "dist/credentials/FriendGridApi.credentials.js"
     ],
     "nodes": [
       "dist/nodes/ExampleNode/ExampleNode.node.js",
-      "dist/nodes/HttpBin/HttpBin.node.js"
+      "dist/nodes/HttpBin/HttpBin.node.js",
+      "dist/nodes/NasaPics/NasaPics.node.js",
+      "dist/nodes/FriendGrid/FriendGrid.node.js"
     ]
   },
   "devDependencies": {
